@@ -1,0 +1,27 @@
+{
+    "name": "captjm/story-teller-bundle",
+    "description": "StoryTeller",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "CaptJM\\Bundle\\StoryTellerBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Makaridze",
+            "email": "dmakaridze@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.14",
+        "symfony/skeleton": "^6.2",
+        "symfony/framework-bundle": "^6.2",
+        "doctrine/doctrine-bundle": "^2.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    }
+}
