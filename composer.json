@@ -24,7 +24,10 @@
     "require": {
         "doctrine/orm": "^2.14",
         "symfony/framework-bundle": "^6.2",
-        "doctrine/doctrine-bundle": "^2.9"
+        "doctrine/doctrine-bundle": "^2.9",
+        "easycorp/easyadmin-bundle": "^4.6",
+        "friendsofsymfony/ckeditor-bundle": "^2.4",
+        "helios-ag/fm-elfinder-bundle": "^12.2"
     },
     "config": {
         "allow-plugins": {
