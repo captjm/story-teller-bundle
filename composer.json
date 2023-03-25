@@ -18,6 +18,9 @@
             "email": "dmakaridze@gmail.com"
         }
     ],
+    "license": [
+        "MIT"
+    ],
     "require": {
         "doctrine/orm": "^2.14",
         "symfony/skeleton": "^6.2",
