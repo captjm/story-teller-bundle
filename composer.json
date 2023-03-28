@@ -27,7 +27,8 @@
         "doctrine/doctrine-bundle": "^2.9",
         "easycorp/easyadmin-bundle": "^4.6",
         "friendsofsymfony/ckeditor-bundle": "^2.4",
-        "helios-ag/fm-elfinder-bundle": "^12.2"
+        "helios-ag/fm-elfinder-bundle": "^12.2",
+        "symfony/webpack-encore-bundle": "^1.16"
     },
     "config": {
         "allow-plugins": {
