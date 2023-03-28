@@ -33,13 +33,5 @@
         "allow-plugins": {
             "symfony/flex": true
         }
-    },
-    "extra": {
-        "symfony": {
-            "endpoint": [
-                "https://api.github.com/repos/captjm/storyteller/contents/index.json",
-                "flex://defaults"
-            ]
-        }
     }
 }
