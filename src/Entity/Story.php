@@ -1,10 +1,10 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Entity;
+namespace CaptJM\Bundle\StorytellerBundle\Entity;
 
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
-use CaptJM\Bundle\StoryTellerBundle\Repository\StoryRepository;
+use CaptJM\Bundle\StorytellerBundle\Repository\StoryRepository;
 
 #[ORM\Entity(repositoryClass: StoryRepository::class)]
 class Story

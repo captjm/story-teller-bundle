@@ -1,8 +1,8 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Entity;
+namespace CaptJM\Bundle\StorytellerBundle\Entity;
 
-use CaptJM\Bundle\StoryTellerBundle\Repository\FontRepository;
+use CaptJM\Bundle\StorytellerBundle\Repository\FontRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: FontRepository::class)]

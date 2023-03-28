@@ -1,6 +1,6 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Entity;
+namespace CaptJM\Bundle\StorytellerBundle\Entity;
 
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;

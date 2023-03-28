@@ -1,6 +1,6 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Admin\Field;
+namespace CaptJM\Bundle\StorytellerBundle\Admin\Field;
 
 use EasyCorp\Bundle\EasyAdminBundle\Contracts\Field\FieldInterface;
 use EasyCorp\Bundle\EasyAdminBundle\Field\FieldTrait;

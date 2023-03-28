@@ -1,8 +1,8 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Controller\Admin;
+namespace CaptJM\Bundle\StorytellerBundle\Controller\Admin;
 
-use CaptJM\Bundle\StoryTellerBundle\Entity\Font;
+use CaptJM\Bundle\StorytellerBundle\Entity\Font;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
 use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;

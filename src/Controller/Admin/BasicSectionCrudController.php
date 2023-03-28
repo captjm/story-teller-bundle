@@ -1,10 +1,10 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Controller\Admin;
+namespace CaptJM\Bundle\StorytellerBundle\Controller\Admin;
 
-use CaptJM\Bundle\StoryTellerBundle\Admin\Field\CKEditorField;
-use CaptJM\Bundle\StoryTellerBundle\Admin\Field\STPositionField;
-use CaptJM\Bundle\StoryTellerBundle\Entity\Font;
+use CaptJM\Bundle\StorytellerBundle\Admin\Field\CKEditorField;
+use CaptJM\Bundle\StorytellerBundle\Admin\Field\STPositionField;
+use CaptJM\Bundle\StorytellerBundle\Entity\Font;
 use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\Persistence\ObjectManager;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
@@ -20,8 +20,8 @@ use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\IntegerField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
 use FM\ElfinderBundle\Form\Type\ElFinderType;
-use CaptJM\Bundle\StoryTellerBundle\Entity\BasicSection;
-use CaptJM\Bundle\StoryTellerBundle\Entity\SectionInterface;
+use CaptJM\Bundle\StorytellerBundle\Entity\BasicSection;
+use CaptJM\Bundle\StorytellerBundle\Entity\SectionInterface;
 
 class BasicSectionCrudController extends AbstractCrudController
 {

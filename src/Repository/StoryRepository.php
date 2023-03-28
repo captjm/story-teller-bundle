@@ -1,11 +1,11 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Repository;
+namespace CaptJM\Bundle\StorytellerBundle\Repository;
 
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\ORM\NonUniqueResultException;
 use Doctrine\Persistence\ManagerRegistry;
-use CaptJM\Bundle\StoryTellerBundle\Entity\Story;
+use CaptJM\Bundle\StorytellerBundle\Entity\Story;
 
 /**
  * @extends ServiceEntityRepository<Story>

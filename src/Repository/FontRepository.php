@@ -1,8 +1,8 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Repository;
+namespace CaptJM\Bundle\StorytellerBundle\Repository;
 
-use CaptJM\Bundle\StoryTellerBundle\Entity\Font;
+use CaptJM\Bundle\StorytellerBundle\Entity\Font;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 use Psr\Cache\InvalidArgumentException;

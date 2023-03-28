@@ -1,8 +1,8 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Repository;
+namespace CaptJM\Bundle\StorytellerBundle\Repository;
 
-use CaptJM\Bundle\StoryTellerBundle\Entity\EntityTranslation;
+use CaptJM\Bundle\StorytellerBundle\Entity\EntityTranslation;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

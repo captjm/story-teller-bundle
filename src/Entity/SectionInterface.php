@@ -1,6 +1,6 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Entity;
+namespace CaptJM\Bundle\StorytellerBundle\Entity;
 interface SectionInterface
 {
     public function getStory(): ?Story;

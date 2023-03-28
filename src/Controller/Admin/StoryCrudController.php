@@ -1,11 +1,11 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Controller\Admin;
+namespace CaptJM\Bundle\StorytellerBundle\Controller\Admin;
 
-use CaptJM\Bundle\StoryTellerBundle\Admin\Field\CKEditorField;
-use CaptJM\Bundle\StoryTellerBundle\Admin\Field\TranslationsField;
-use CaptJM\Bundle\StoryTellerBundle\Entity\Font;
-use CaptJM\Bundle\StoryTellerBundle\Form\Type\SectionType;
+use CaptJM\Bundle\StorytellerBundle\Admin\Field\CKEditorField;
+use CaptJM\Bundle\StorytellerBundle\Admin\Field\TranslationsField;
+use CaptJM\Bundle\StorytellerBundle\Entity\Font;
+use CaptJM\Bundle\StorytellerBundle\Form\Type\SectionType;
 use Doctrine\ORM\QueryBuilder;
 use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\Persistence\ObjectManager;
@@ -26,7 +26,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Field\FormField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\SlugField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
-use CaptJM\Bundle\StoryTellerBundle\Entity\Story;
+use CaptJM\Bundle\StorytellerBundle\Entity\Story;
 
 class StoryCrudController extends AbstractCrudController
 {
@@ -79,12 +79,12 @@ class StoryCrudController extends AbstractCrudController
         if ($pageName === "edit" or $pageName === "new") {
             yield FormField::addTab('Sections');
 
-            $storyTellerConfig = $this->getParameter('story_teller');
+            $storytellerConfig = $this->getParameter('story_teller');
 
             yield CollectionField::new('sections')
                 ->onlyOnForms()
                 ->addHtmlContentsToBody($this->renderView("form/select_section_modal.html.twig", [
-                    'sectionTypes' => array_column($storyTellerConfig['sections'], 'fqcn'),
+                    'sectionTypes' => array_column($storytellerConfig['sections'], 'fqcn'),
                 ]))
                 ->setEntryType(SectionType::class)
                 ->setColumns(12)

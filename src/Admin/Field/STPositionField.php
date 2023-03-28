@@ -1,8 +1,8 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\Admin\Field;
+namespace CaptJM\Bundle\StorytellerBundle\Admin\Field;
 
-use CaptJM\Bundle\StoryTellerBundle\Form\Type\STPositionType;
+use CaptJM\Bundle\StorytellerBundle\Form\Type\STPositionType;
 use EasyCorp\Bundle\EasyAdminBundle\Contracts\Field\FieldInterface;
 use EasyCorp\Bundle\EasyAdminBundle\Field\FieldTrait;
 

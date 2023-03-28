@@ -1,15 +1,15 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle;
+namespace CaptJM\Bundle\StorytellerBundle;
 
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
-use CaptJM\Bundle\StoryTellerBundle\DependencyInjection\StoryTellerExtension;
+use CaptJM\Bundle\StorytellerBundle\DependencyInjection\StorytellerExtension;
 
-class StoryTellerBundle extends AbstractBundle
+class StorytellerBundle extends AbstractBundle
 {
     public function getContainerExtension(): ?ExtensionInterface
     {
-        return new StoryTellerExtension();
+        return new StorytellerExtension();
     }
 }

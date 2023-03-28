@@ -1,12 +1,12 @@
 <?php
 
-namespace CaptJM\Bundle\StoryTellerBundle\DependencyInjection;
+namespace CaptJM\Bundle\StorytellerBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 
-class StoryTellerExtension extends Extension
+class StorytellerExtension extends Extension
 {
     /**
      * @throws Exception

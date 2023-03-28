@@ -1,15 +1,15 @@
 {
-    "name": "captjm/story-teller-bundle",
-    "description": "StoryTeller",
+    "name": "captjm/storyteller-bundle",
+    "description": "Storyteller",
     "type": "symfony-bundle",
     "autoload": {
         "psr-4": {
-            "CaptJM\\Bundle\\StoryTellerBundle\\": "src/"
+            "CaptJM\\Bundle\\StorytellerBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CaptJM\\Bundle\\StoryTellerBundle\\Tests\\": "tests/"
+            "CaptJM\\Bundle\\StorytellerBundle\\Tests\\": "tests/"
         }
     },
     "authors": [
