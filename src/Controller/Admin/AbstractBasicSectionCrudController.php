@@ -23,7 +23,7 @@ use FM\ElfinderBundle\Form\Type\ElFinderType;
 use CaptJM\Bundle\StorytellerBundle\Entity\BasicSection;
 use CaptJM\Bundle\StorytellerBundle\Entity\SectionInterface;
 
-class BasicSectionCrudController extends AbstractCrudController
+class AbstractBasicSectionCrudController extends AbstractCrudController
 {
     protected ObjectManager $em;
 

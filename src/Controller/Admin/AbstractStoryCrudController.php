@@ -28,7 +28,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Field\SlugField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
 use CaptJM\Bundle\StorytellerBundle\Entity\Story;
 
-class StoryCrudController extends AbstractCrudController
+class AbstractStoryCrudController extends AbstractCrudController
 {
     private ObjectManager $em;
 

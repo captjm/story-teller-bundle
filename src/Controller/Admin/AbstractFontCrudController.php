@@ -9,7 +9,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\SlugField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
 
-class FontCrudController extends AbstractCrudController
+class AbstractFontCrudController extends AbstractCrudController
 {
     public static function getEntityFqcn(): string
     {
@@ -19,7 +19,7 @@ class FontCrudController extends AbstractCrudController
 
     public function configureFields(string $pageName): iterable
     {
-        $uploadDir = 'public/' . $this->getParameter('app.fonts_directory');
+        $uploadDir = 'public/' . $this->getParameter('storyteller.fonts_directory');
         return [
             IdField::new('id')
                 ->setDisabled(),
