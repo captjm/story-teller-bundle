@@ -1,6 +1,6 @@
 {
     "name": "captjm/storyteller-bundle",
-    "description": "Storyteller",
+    "description": "Storyteller Bundle",
     "type": "symfony-bundle",
     "autoload": {
         "psr-4": {
